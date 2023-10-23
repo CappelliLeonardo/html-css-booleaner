@@ -4,7 +4,7 @@
 .header{
     background-image: url('img/pattern.png');
     background-color: rgb(56, 169, 221);
-    background-size: contain;
+    background-size: 15%;
     width: 100%;
 }
 
@@ -14,14 +14,61 @@
 #infotitolo{
     color: gray;
 }
+
 #testoblu{
     color: rgb(56, 169, 221);
 }
+
 #datascrittura{
     font-size: 12px;
 }
 
 .testo-in-evidenza{
     background-color: yellow;
+}
+
+th{
+    width: 33vw;
+    text-align: left;
+    color: white;
+}
+
+.first-row{
+    background-color: rgb(17, 7, 212);
+
+}
+
+.second-row{
+    background-color: rgb(105, 156, 232) ;
+}
+
+.third-row{
+    background-color: white;
+}
+
+.suggerimenti{
+    color: gray;
+}
+
+.suggerimento1{
+    background-image: url(img/monitor.jpg);
+    height: 200px;
+    width: 200px;
+    background-position: center;
+    background-size: cover;
+}
+
+.suggerimento2{
+    background-image: url(img/graph.jpg);
+    height: 200px;
+    width: 200px;
+    background-position: center;
+    background-size: cover;
+}
+
+
+#suggerimento-bianco{
+    color: white;
+    font-size: 20px;
 }
 
