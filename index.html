@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>The Booleaner</title>
+    <title>Internet deve essere al servizio del "bene pubblico" : il manifesto di Tim Berners-Lee | The Booleaner</title>
 </head>
 <body>
     <!-- Inizio header -->
     <header>
-        <div class="header">
-            <img id="logo" src="./img/logo.svg" alt="">
+        <div id="main-header">
+            <img id="logo" src="./img/logo.svg" alt="Logo Booleaner">
         </div>
 
     </header>
@@ -21,18 +21,30 @@
         <!-- Inizio prima sezione -->
         <section>
 
-            <h2 class="subtitolo">
+            <h1>
                 Internet deve essere al servizio del "bene pubblico": il manifesto di Tim Berners-Lee
-            </h2>
-
-            <p id="infotitolo">Scritto da
-                <span id="testoblu">The Booleaner</span>
+            </h1>
+            
+            <p class="gray-colored-text">
+                Scritto da
+                <a href="#" class="inner-link">
+                    The Booleaner
+                </a>
                 <br>
-                <span id="datascrittura">il 10/10/2020
+                <span class="gray-colored-text">
+                    <small>
+                        il 10/10/2020
+                    </small>
 
                 </span>
             </p>
 
+        </section>
+
+        <!-- Fine prima sezione  -->
+
+        <!-- Inizio seconda sezione  -->
+        <section>
             <img src="./img/tim-1.jpg" alt="tim1">
             <img src="img/tim-2.jpg" alt="tim2">
 
@@ -41,14 +53,14 @@
                 2nd Photo: Wikimedia, by Paul Clarke
             </p>
         </section>
-        <!-- Fine prima sezione -->
+        <!-- Fine seconda sezione -->
 
-        <!-- Inizio seconda sezione  -->
+        <!-- Inizio terza sezione  -->
         <section>
 
             <p>
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud
-                <span class="testo-in-evidenza">
+                <span class="highlighted">
                     
                     exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
                 
@@ -57,40 +69,27 @@
 
             </p>
 
-        </section>
-        <!-- Fine seconda sezione  -->
-
-        <!-- Inizio terza sezione  -->
-        <section>
 
             <ul>
-
                 <li> 
                     Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
                 </li>
-
                 <li>
                     Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
                 </li>
-
                 <li>
                     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
                 </li>
             </ul>
 
-        </section>
-        <!-- Fine terza sezione  -->
-
-        <!-- Inizio quarta sezione  -->
         <section>
-
-            <table>
-                <thead>
-                    <tr class="first-row">
-                        <th>
+            <table id="collapsed-table">
+                <thead class="main-table-thead">
+                    <tr>
+                        <th class="width-25-cell">
                             Lorem ispum dolor
                         </th>
-                        <th>
+                        <th class="width-25-cell">
                             Lorem ispum dolor
                         </th>
                         <th>
@@ -99,26 +98,12 @@
                     </tr>
                 </thead>
 
-                <tbody class="second-row">
-                    <tr>
-                        <td>
+                <tbody>
+                    <tr class="blue-table-row">
+                        <td class="width-25-cell">
                             Lorem ispum dolor
                         </td>
-                        <td>
-                            Lorem ispum dolor
-                        </td>
-                        <td>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium cos quo, placeat consectetur ullam fugiat similique perferendis repellendus illo mollitia eveniet expedita a quia modi. Totam saepe quibusdam natus harum.
-                        </td>
-                    </tr>
-                </tbody>
-
-                <tbody class="third-row">
-                    <tr>
-                        <td>
-                            Lorem ispum dolor
-                        </td>
-                        <td>
+                        <td class="width-25-cell">
                             Lorem ispum dolor
                         </td>
                         <td>
@@ -127,12 +112,12 @@
                     </tr>
                 </tbody>
 
-                <tbody class="second-row">
+                <tbody>
                     <tr>
-                        <td>
+                        <td class="width-25-cell">
                             Lorem ispum dolor
                         </td>
-                        <td>
+                        <td class="width-25-cell">
                             Lorem ispum dolor
                         </td>
                         <td>
@@ -141,9 +126,19 @@
                     </tr>
                 </tbody>
 
-
-
-
+                <tbody>
+                    <tr class="blue-table-row">
+                        <td class="width-25-cell">
+                            Lorem ispum dolor
+                        </td>
+                        <td class="width-25-cell">
+                            Lorem ispum dolor
+                        </td>
+                        <td>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium cos quo, placeat consectetur ullam fugiat similique perferendis repellendus illo mollitia eveniet expedita a quia modi. Totam saepe quibusdam natus harum.
+                        </td>
+                    </tr>
+                </tbody>
             </table>
 
         </section>
@@ -168,18 +163,18 @@
 
         <!-- Inizio sesta sessione -->
         <section>
-            <h3 class="suggerimenti">
+            <h4 class="gray-colored-text">
                 Potrebbero interessarti
-            </h3>
+            </h4>
 
-            <div class="suggerimento1">
-                <h4 id="suggerimento-bianco">
+            <div class="monitor-container">
+                <h3 class="white-colored-text">
                     Lorem Ipsum dolor
                 </h4>
             </div>
 
-            <div class="suggerimento2">
-                <h4 id="suggerimento-bianco">
+            <div class="graphic-container">
+                <h3 class="white-colored-text">
                     Lorem Ipsum dolor
                 </h4>
             </div>
